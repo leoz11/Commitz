@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html.light {
+  --bg-color: white;
+  --text-color: black;
+}
+
+html.dark {
+  --bg-color: black;
+  --text-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Fira Code', sans-serif;
+}

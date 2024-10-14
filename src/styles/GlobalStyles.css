@@ -1,0 +1,20 @@
+html.light {
+  --bg-color: white;
+  --text-color: black;
+}
+
+html.dark {
+  --bg-color: black;
+  --text-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    background-color: var(--bg-color);
+  }
+}
