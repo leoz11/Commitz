@@ -113,7 +113,7 @@ const Header = ({ theme, toggleTheme, toggleLanguage, language }) => {
                 ? 'Se tiver qualquer dúvida, entre em contato conosco pelo Twitter (X), através do botão abaixo.' 
                 : 'If you have any questions, contact us via Twitter (X) using the button below.'}</p>
           
-          <a href="https://x.com/leozvlr" target="_blank" rel="noopener noreferrer" className="mt-4 w-full flex items-center justify-center text-gray-400 hover:text-blue-500">
+          <a href="https://x.com/leozinnjs" target="_blank" rel="noopener noreferrer" className="mt-4 w-full flex items-center justify-center text-gray-400 hover:text-blue-500">
             <FaXTwitter size={20} className="mr-2" />
             {language === 'pt-BR' ? 'Twitter' : 'Twitter'}
           </a>
